@@ -74,6 +74,12 @@
             Console.WriteLine("\nExcercise 10:\n");
             byte byteNumber = 200;
             Console.WriteLine($"Byte number: {byteNumber}");
+
+            // Esercizio 11: Dichiarare una variabile const e provare a modificarne il valore.
+            Console.WriteLine("\nExcercise 11:\n");
+            const int constant = 100;
+            Console.WriteLine($"Constant: {constant}");
+            // constant = 200; // Errore: non si può modificare una costante.
         }
     }
 }
