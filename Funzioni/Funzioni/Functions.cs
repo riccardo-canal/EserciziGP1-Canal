@@ -41,5 +41,11 @@
             if (n == 0) return 1;
             return n * Factorial(n - 1);
         }
+
+        // Esercizio 7: Dichiarare una funzione che restituisce un valore di tipo bool basato su una condizione.
+        internal static bool IsEven(int number)
+        {
+            return number % 2 == 0;
+        }
     }
 }

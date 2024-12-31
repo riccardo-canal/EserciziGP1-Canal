@@ -39,6 +39,12 @@
             int numberToFactorial = 5;
             int factorialResult = Functions.Factorial(numberToFactorial);
             Console.WriteLine($"Factorial of {numberToFactorial}: {factorialResult}");
+
+            // Esercizio 7: Dichiarare una funzione che restituisce un valore di tipo bool basato su una condizione.
+            Console.WriteLine("\nExercise 7:\n");
+            int numberToCheck = 10;
+            bool isEven = Functions.IsEven(numberToCheck);
+            Console.WriteLine($"Is {numberToCheck} even? {isEven}");
         }
     }
 }
