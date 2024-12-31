@@ -47,5 +47,19 @@
         {
             return number % 2 == 0;
         }
+
+        // Esercizio 8: Creare una funzione che utilizza un'eccezione per gestire input non validi. (try - catch)
+        internal static void TryParseNumber(string input)
+        {
+            try
+            {
+                int result = int.Parse(input);
+                Console.WriteLine($"Parsed number: {result}");
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid number format.");
+            }
+        }
     }
 }

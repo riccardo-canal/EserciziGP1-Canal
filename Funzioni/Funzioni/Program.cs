@@ -45,6 +45,10 @@
             int numberToCheck = 10;
             bool isEven = Functions.IsEven(numberToCheck);
             Console.WriteLine($"Is {numberToCheck} even? {isEven}");
+
+            // Esercizio 8: Creare una funzione che utilizza un'eccezione per gestire input non validi. (try - catch)
+            Console.WriteLine("\nExercise 8:\n");
+            Functions.TryParseNumber("1234"); // L'eccezione viene lanciata con un input non valido, ad esempio: "abcd"
         }
     }
 }
