@@ -7,5 +7,11 @@
         {
             return a + b;
         }
+
+        // Esercizio 2: Creare una funzione void che stampa un messaggio a console.
+        internal static void PrintMessage(string message)
+        {
+            Console.WriteLine(message);
+        }
     }
 }
