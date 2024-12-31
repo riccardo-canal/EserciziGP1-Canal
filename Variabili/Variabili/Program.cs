@@ -85,6 +85,11 @@
             Console.WriteLine("\nExcercise 12:\n");
             int x = 1, y = 2, z = 3;
             Console.WriteLine($"x: {x}, y: {y}, z: {z}");
+
+            // Esercizio 13: Dichiarare una variabile di tipo var e verificare come il compilatore determina il tipo.
+            Console.WriteLine("\nExcercise 13:\n");
+            var inferredNumber = 42;
+            Console.WriteLine($"Type inferred by var: {inferredNumber.GetType()}");
         }
     }
 }
