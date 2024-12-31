@@ -80,6 +80,11 @@
             const int constant = 100;
             Console.WriteLine($"Constant: {constant}");
             // constant = 200; // Errore: non si può modificare una costante.
+
+            // Esercizio 12: Dichiarare più variabili in una sola riga e assegnare loro valori diversi.
+            Console.WriteLine("\nExcercise 12:\n");
+            int x = 1, y = 2, z = 3;
+            Console.WriteLine($"x: {x}, y: {y}, z: {z}");
         }
     }
 }
