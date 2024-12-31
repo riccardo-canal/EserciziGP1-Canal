@@ -106,6 +106,11 @@
             double numberToCast = 9.99;
             int castedNumber = (int)numberToCast;
             Console.WriteLine($"Casted number: {castedNumber}");
+
+            // Esercizio 16: Dichiarare una variabile costante di tipo string.
+            Console.WriteLine("\nExcercise 16:\n");
+            const string constantMessage = "This is a constant message.";
+            Console.WriteLine(constantMessage);
         }
     }
 }
