@@ -22,6 +22,13 @@
             string name = "Mario";
             string message = greeting + ", " + name + "!";
             Console.WriteLine(message);
+
+            // Esercizio 3: Dichiarare una variabile di tipo bool e cambiarne il valore.
+            Console.WriteLine("\nExcercise 3:\n");
+            bool isActive = true;
+            Console.WriteLine($"Initial value of isActive: {isActive}");
+            isActive = false;
+            Console.WriteLine($"Modified value of isActive: {isActive}" );
         }
     }
 }
