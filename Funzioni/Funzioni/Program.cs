@@ -33,6 +33,12 @@
             Console.WriteLine("\nExercise 5:\n");
             int[] numbers = { 1, 2, 3, 4, 5 };
             Functions.PrintArray(numbers);
+
+            // Esercizio 6: Scrivere una funzione che calcola il fattoriale di un numero.
+            Console.WriteLine("\nExercise 6:\n");
+            int numberToFactorial = 5;
+            int factorialResult = Functions.Factorial(numberToFactorial);
+            Console.WriteLine($"Factorial of {numberToFactorial}: {factorialResult}");
         }
     }
 }
