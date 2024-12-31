@@ -28,6 +28,11 @@
             Console.WriteLine("\nExercise 4:\n");
             Functions.GreetUser("Alice");
             Functions.GreetUser(); // Chiama la funzione con il parametro predefinito
+
+            // Esercizio 5: Scrivere una funzione che accetta un array come parametro.
+            Console.WriteLine("\nExercise 5:\n");
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            Functions.PrintArray(numbers);
         }
     }
 }

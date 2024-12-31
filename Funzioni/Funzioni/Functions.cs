@@ -25,5 +25,14 @@
         {
             Console.WriteLine($"Hello, {name}");
         }
+
+        // Esercizio 5: Scrivere una funzione che accetta un array come parametro.
+        internal static void PrintArray(int[] array)
+        {
+            foreach (var num in array)
+            {
+                Console.WriteLine(num);
+            }
+        }
     }
 }
