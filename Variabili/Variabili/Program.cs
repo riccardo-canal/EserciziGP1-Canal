@@ -111,6 +111,11 @@
             Console.WriteLine("\nExcercise 16:\n");
             const string constantMessage = "This is a constant message.";
             Console.WriteLine(constantMessage);
+
+            // Esercizio 17: Utilizzare una variabile per rappresentare una data usando il tipo DateTime.
+            Console.WriteLine("\nExcercise 17:\n");
+            DateTime currentDate = DateTime.Now;
+            Console.WriteLine($"Current date: {currentDate}");
         }
     }
 }
