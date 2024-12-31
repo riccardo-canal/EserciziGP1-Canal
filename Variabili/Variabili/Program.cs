@@ -56,6 +56,19 @@
             Console.WriteLine("\nExcercise 8:\n");
             long largeNumber = 1234567890123456789L;
             Console.WriteLine("Large number: " + largeNumber);
+
+            // Esercizio 9: Creare una variabile short e verificare il suo range di valori.
+            Console.WriteLine("\nExcercise 9:\n");
+            short shortNumber;
+
+            // Verifica del range di valori
+            Console.WriteLine("Range di valori per il tipo short:");
+            Console.WriteLine($"Valore minimo di short: {short.MinValue}");
+            Console.WriteLine($"Valore massimo di short: {short.MaxValue}");
+
+            // Esempio con numeri che rientrano nel range
+            shortNumber = 100;
+            Console.WriteLine($"Esempio di valore short: {shortNumber}");
         }
     }
 }
