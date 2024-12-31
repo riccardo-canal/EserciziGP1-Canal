@@ -39,6 +39,11 @@
             Console.WriteLine("\nExcercise 5:\n");
             char character = 'A';
             Console.WriteLine($"Character: {character}");
+
+            // Esercizio 6: Usare una variabile di tipo decimal per rappresentare una quantità monetaria.
+            Console.WriteLine("\nExcercise 6:\n");
+            decimal price = 19.99m;
+            Console.WriteLine($"Price: {price}");
         }
     }
 }
