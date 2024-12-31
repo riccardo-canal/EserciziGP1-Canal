@@ -17,6 +17,12 @@
             // Esercizio 2: Creare una funzione void che stampa un messaggio a console.
             Console.WriteLine("\nExercise 2:\n");
             Functions.PrintMessage("Hello, world!");
+
+            // Esercizio 3: Scrivere una funzione che accetta un parametro string e restituisce la lunghezza della stringa.
+            Console.WriteLine("\nExercise 3:\n");
+            string myString = "Hello!";
+            int stringLength = Functions.GetStringLength(myString);
+            Console.WriteLine($"String length: {stringLength}");
         }
     }
 }

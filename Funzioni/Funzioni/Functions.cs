@@ -13,5 +13,11 @@
         {
             Console.WriteLine(message);
         }
+
+        // Esercizio 3: Scrivere una funzione che accetta un parametro string e restituisce la lunghezza della stringa.
+        internal static int GetStringLength(string input)
+        {
+            return input.Length;
+        }
     }
 }
