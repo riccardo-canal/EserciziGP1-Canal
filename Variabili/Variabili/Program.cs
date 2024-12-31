@@ -28,7 +28,7 @@
             bool isActive = true;
             Console.WriteLine($"Initial value of isActive: {isActive}");
             isActive = false;
-            Console.WriteLine($"Modified value of isActive: {isActive}" );
+            Console.WriteLine($"Modified value of isActive: {isActive}");
 
             // Esercizio 4: Utilizzare una variabile di tipo double per rappresentare un numero con decimali.
             Console.WriteLine("\nExcercise 4:\n");
