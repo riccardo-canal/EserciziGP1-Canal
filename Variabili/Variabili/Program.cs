@@ -15,6 +15,13 @@
             Console.WriteLine("Initial value of number: " + number);
             number = 20;
             Console.WriteLine("Modified value of number: " + number);
+
+            // Esercizio 2: Creare una variabile di tipo string e concatenarla con un'altra stringa.
+            Console.WriteLine("\nExcercise 2:\n");
+            string greeting = "Hello";
+            string name = "Mario";
+            string message = greeting + ", " + name + "!";
+            Console.WriteLine(message);
         }
     }
 }
