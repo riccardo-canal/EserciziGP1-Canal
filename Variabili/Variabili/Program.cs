@@ -100,6 +100,12 @@
             Console.WriteLine("Default value of int: " + defaultInt);
             Console.WriteLine("Default value of bool: " + defaultBool);
             Console.WriteLine("Default value of string: " + defualtString);
+
+            // Esercizio 15: Cambiare il tipo di una variabile usando il casting esplicito.
+            Console.WriteLine("\nExcercise 15:\n");
+            double numberToCast = 9.99;
+            int castedNumber = (int)numberToCast;
+            Console.WriteLine($"Casted number: {castedNumber}");
         }
     }
 }
