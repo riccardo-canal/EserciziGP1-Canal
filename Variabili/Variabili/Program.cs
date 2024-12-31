@@ -34,6 +34,11 @@
             Console.WriteLine("\nExcercise 4:\n");
             double decimalNumber = 10.5;
             Console.WriteLine($"Double number: {decimalNumber}");
+
+            // Esercizio 5: Dichiarare una variabile char e assegnarle un carattere.
+            Console.WriteLine("\nExcercise 5:\n");
+            char character = 'A';
+            Console.WriteLine($"Character: {character}");
         }
     }
 }
