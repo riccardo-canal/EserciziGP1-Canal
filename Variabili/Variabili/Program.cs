@@ -69,6 +69,11 @@
             // Esempio con numeri che rientrano nel range
             shortNumber = 100;
             Console.WriteLine($"Esempio di valore short: {shortNumber}");
+
+            // Esercizio 10: Usare una variabile byte per rappresentare un numero tra 0 e 255.
+            Console.WriteLine("\nExcercise 10:\n");
+            byte byteNumber = 200;
+            Console.WriteLine($"Byte number: {byteNumber}");
         }
     }
 }
