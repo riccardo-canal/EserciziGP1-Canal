@@ -51,6 +51,11 @@
             double doubleNumber = 1.1234567891234567; // Precisione: ~15-17 cifre. Grandezza: 8 byte
             Console.WriteLine("Precision of float: " + floatNumber);
             Console.WriteLine("Precision of double: " + doubleNumber);
+
+            // Esercizio 8: Dichiarare una variabile long per rappresentare un numero molto grande.
+            Console.WriteLine("\nExcercise 8:\n");
+            long largeNumber = 1234567890123456789L;
+            Console.WriteLine("Large number: " + largeNumber);
         }
     }
 }
