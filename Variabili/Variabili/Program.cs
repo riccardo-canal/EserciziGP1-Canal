@@ -12,9 +12,9 @@
             // Esercizio 1: Dichiarare una variabile di tipo int e assegnarle un valore, quindi modificarlo.
             Console.WriteLine("\nExcercise 1:\n");
             int number = 10;
-            Console.WriteLine("Initial value of number: " + number);
+            Console.WriteLine($"Initial value of number: {number}");
             number = 20;
-            Console.WriteLine("Modified value of number: " + number);
+            Console.WriteLine($"Modified value of number: {number}");
 
             // Esercizio 2: Creare una variabile di tipo string e concatenarla con un'altra stringa.
             Console.WriteLine("\nExcercise 2:\n");
@@ -49,13 +49,13 @@
             Console.WriteLine("\nExcercise 7:\n");
             float floatNumber = 1.123456789f; // Precisione: ~6-9 cifre. Grandezza: 4 byte
             double doubleNumber = 1.1234567891234567; // Precisione: ~15-17 cifre. Grandezza: 8 byte
-            Console.WriteLine("Precision of float: " + floatNumber);
-            Console.WriteLine("Precision of double: " + doubleNumber);
+            Console.WriteLine($"Precision of float: {floatNumber}");
+            Console.WriteLine($"Precision of double: {doubleNumber}");
 
             // Esercizio 8: Dichiarare una variabile long per rappresentare un numero molto grande.
             Console.WriteLine("\nExcercise 8:\n");
             long largeNumber = 1234567890123456789L;
-            Console.WriteLine("Large number: " + largeNumber);
+            Console.WriteLine($"Large number: {largeNumber}");
 
             // Esercizio 9: Creare una variabile short e verificare il suo range di valori.
             Console.WriteLine("\nExcercise 9:\n");
@@ -97,9 +97,9 @@
             bool defaultBool = default; // false
             string? defualtString = default; // null
 
-            Console.WriteLine("Default value of int: " + defaultInt);
-            Console.WriteLine("Default value of bool: " + defaultBool);
-            Console.WriteLine("Default value of string: " + defualtString);
+            Console.WriteLine($"Default value of int: {defaultInt}");
+            Console.WriteLine($"Default value of bool: {defaultBool}");
+            Console.WriteLine($"Default value of string: {defualtString}");
 
             // Esercizio 15: Cambiare il tipo di una variabile usando il casting esplicito.
             Console.WriteLine("\nExcercise 15:\n");
