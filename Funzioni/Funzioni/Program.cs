@@ -23,6 +23,11 @@
             string myString = "Hello!";
             int stringLength = Functions.GetStringLength(myString);
             Console.WriteLine($"String length: {stringLength}");
+
+            // Esercizio 4: Dichiarare una funzione con un parametro opzionale.
+            Console.WriteLine("\nExercise 4:\n");
+            Functions.GreetUser("Alice");
+            Functions.GreetUser(); // Chiama la funzione con il parametro predefinito
         }
     }
 }

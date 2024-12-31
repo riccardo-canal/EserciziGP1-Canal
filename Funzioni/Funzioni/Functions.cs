@@ -19,5 +19,11 @@
         {
             return input.Length;
         }
+
+        // Esercizio 4: Dichiarare una funzione con un parametro opzionale.
+        internal static void GreetUser(string name = "Guest")
+        {
+            Console.WriteLine($"Hello, {name}");
+        }
     }
 }
