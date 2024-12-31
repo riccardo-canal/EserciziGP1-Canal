@@ -90,6 +90,16 @@
             Console.WriteLine("\nExcercise 13:\n");
             var inferredNumber = 42;
             Console.WriteLine($"Type inferred by var: {inferredNumber.GetType()}");
+
+            // Esercizio 14: Dichiarare e usare variabili con valori predefiniti.
+            Console.WriteLine("\nExcercise 14:\n");
+            int defaultInt = default; // 0
+            bool defaultBool = default; // false
+            string? defualtString = default; // null
+
+            Console.WriteLine("Default value of int: " + defaultInt);
+            Console.WriteLine("Default value of bool: " + defaultBool);
+            Console.WriteLine("Default value of string: " + defualtString);
         }
     }
 }
