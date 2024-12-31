@@ -44,6 +44,13 @@
             Console.WriteLine("\nExcercise 6:\n");
             decimal price = 19.99m;
             Console.WriteLine($"Price: {price}");
+
+            // Esercizio 7: Dichiarare una variabile float e assegnarle un valore, verificandone la precisione rispetto a double.
+            Console.WriteLine("\nExcercise 7:\n");
+            float floatNumber = 1.123456789f; // Precisione: ~6-9 cifre. Grandezza: 4 byte
+            double doubleNumber = 1.1234567891234567; // Precisione: ~15-17 cifre. Grandezza: 8 byte
+            Console.WriteLine("Precision of float: " + floatNumber);
+            Console.WriteLine("Precision of double: " + doubleNumber);
         }
     }
 }
