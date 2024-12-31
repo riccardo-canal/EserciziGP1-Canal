@@ -116,6 +116,12 @@
             Console.WriteLine("\nExcercise 17:\n");
             DateTime currentDate = DateTime.Now;
             Console.WriteLine($"Current date: {currentDate}");
+
+            // Esercizio 18: Dichiarare una variabile e utilizzarla in un'espressione matematica.
+            Console.WriteLine("\nExcercise 18:\n");
+            int baseNumber = 5;
+            int result = baseNumber * 10;
+            Console.WriteLine($"Result of the operation: {result}");
         }
     }
 }
