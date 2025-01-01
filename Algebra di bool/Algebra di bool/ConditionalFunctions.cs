@@ -320,5 +320,18 @@
                 Console.WriteLine($"{number} is not divisible by both 3 and 5.");
             }
         }
+
+        // Esercizio 20: Scrivere un'istruzione if per verificare se un valore booleano è true.
+        public static void CheckBoolean(bool value)
+        {
+            if (value)
+            {
+                Console.WriteLine("The value is true.");
+            }
+            else
+            {
+                Console.WriteLine("The value is false.");
+            }
+        }
     }
 }

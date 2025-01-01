@@ -109,6 +109,11 @@
             Console.WriteLine("\nExercise 19:\n");
             ConditionalFunctions.CheckDivisibility(15); // Divisibile per entrambi
             ConditionalFunctions.CheckDivisibility(9); // Non divisibile per entrambi
+
+            // Esercizio 20: Scrivere un'istruzione if per verificare se un valore booleano è true.
+            Console.WriteLine("\nExercise 20:\n");
+            ConditionalFunctions.CheckBoolean(true);
+            ConditionalFunctions.CheckBoolean(false);
         }
     }
 }
