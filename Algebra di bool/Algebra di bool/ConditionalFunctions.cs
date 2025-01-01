@@ -129,5 +129,22 @@
                     break;
             }
         }
+
+        // Esercizio 9: Creare un'istruzione if-else che utilizza un'espressione con operatori di confronto.
+        public static void CompareNumbers(int a, int b)
+        {
+            if (a > b)
+            {
+                Console.WriteLine($"{a} is greater than {b}.");
+            }
+            else if (a < b)
+            {
+                Console.WriteLine($"{a} is less than {b}.");
+            }
+            else
+            {
+                Console.WriteLine($"{a} is equal to {b}.");
+            }
+        }
     }
 }

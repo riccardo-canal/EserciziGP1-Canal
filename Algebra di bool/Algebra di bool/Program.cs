@@ -51,6 +51,12 @@
             Console.WriteLine("\nExercise 8:\n");
             ConditionalFunctions.SwitchBoolean(true);
             ConditionalFunctions.SwitchBoolean(false);
+
+            // Esercizio 9: Creare un'istruzione if-else che utilizza un'espressione con operatori di confronto.
+            Console.WriteLine("\nExercise 9:\n");
+            ConditionalFunctions.CompareNumbers(10, 5);
+            ConditionalFunctions.CompareNumbers(5, 10);
+            ConditionalFunctions.CompareNumbers(10, 10);
         }
     }
 }
