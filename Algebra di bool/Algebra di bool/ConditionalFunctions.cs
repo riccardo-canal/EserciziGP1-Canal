@@ -48,5 +48,27 @@
                 Console.WriteLine("One or both conditions are false.");
             }
         }
+
+        // Esercizio 4: Utilizzare un'espressione logica con || per verificare se un numero è compreso in un intervallo.
+        public static void CheckInRange(int number, int lowerBound, int upperBound)
+        {
+            // Verifica se il minimo è maggiore del massimo
+            if (lowerBound > upperBound)
+            {
+                Console.WriteLine("Error: the lower bound cannot be greater than the upper bound.");
+                return; // Uscita anticipata, non continua con il resto del codice
+            }
+
+            // Verifica usando solo OR (||) per verificare se il numero è fuori dall'intervallo
+            if (number < lowerBound || number > upperBound)
+            {
+                Console.WriteLine($"{number} is out of the range of {lowerBound} and {upperBound}.");
+            }
+            else
+            {
+                Console.WriteLine($"{number} is within the range of {lowerBound} and {upperBound}.");
+            }
+        }
+
     }
 }

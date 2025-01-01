@@ -24,6 +24,12 @@
             Console.WriteLine("\nExercise 3:\n");
             ConditionalFunctions.CheckConditions(6, 8);  // x > 5 && y < 10
             ConditionalFunctions.CheckConditions(3, 8);  // x > 5 && y < 10 (falsa)
+
+            // Esercizio 4: Utilizzare un'espressione logica con || per verificare se un numero è compreso in un intervallo.
+            Console.WriteLine("\nExercise 4:\n");
+            ConditionalFunctions.CheckInRange(50, 1, 100); // Dentro l'intervallo
+            ConditionalFunctions.CheckInRange(150, 1, 100); // Fuori dall'intervallo
+            ConditionalFunctions.CheckInRange(150, 100, 1); // Scenario di errore
         }
     }
 }
