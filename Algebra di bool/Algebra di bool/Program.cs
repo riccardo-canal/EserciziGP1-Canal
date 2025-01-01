@@ -35,6 +35,11 @@
             Console.WriteLine("\nExercise 5:\n");
             ConditionalFunctions.InvertCondition(true);
             ConditionalFunctions.InvertCondition(false);
+
+            // Esercizio 6: Dichiarare una variabile booleana e usarla in un'istruzione if.
+            Console.WriteLine("\nExercise 6:\n");
+            ConditionalFunctions.UseBoolean(true);
+            ConditionalFunctions.UseBoolean(false);
         }
     }
 }

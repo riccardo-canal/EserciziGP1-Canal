@@ -82,5 +82,19 @@
                 Console.WriteLine("Condition is true.");
             }
         }
+
+        // Esercizio 6: Dichiarare una variabile booleana e usarla in un'istruzione if.
+        public static void UseBoolean(bool isActive)
+        {
+            if (isActive)
+            {
+                Console.WriteLine("The system is active.");
+            }
+            else
+            {
+                Console.WriteLine("The system is inactive.");
+            }
+        }
+
     }
 }
