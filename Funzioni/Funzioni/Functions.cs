@@ -74,5 +74,14 @@
             person.Age += 1; // Modifica di esempio
             return person;
         }
+
+        // Esercizio 11: Scrivere una funzione che modifica una lista passata come parametro.
+        internal static void ModifyList(List<int> numbers)
+        {
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                numbers[i] += 10; // Aggiunge 10 a ogni elemento della lista
+            }
+        }
     }
 }

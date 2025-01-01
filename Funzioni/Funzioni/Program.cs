@@ -65,6 +65,16 @@
             Console.WriteLine($"Person details: {person}");
             Person updatedPerson = Functions.UpdatePerson(person);
             Console.WriteLine($"Updated person: {updatedPerson}");
+
+            // Esercizio 11: Scrivere una funzione che modifica una lista passata come parametro.
+            Console.WriteLine("\nExercise 11:\n");
+            List<int> numbersToModify = new List<int> { 1, 2, 3, 4, 5 };
+            Functions.ModifyList(numbersToModify);
+            Console.WriteLine("Modified list:");
+            foreach (var num in numbersToModify)
+            {
+                Console.WriteLine(num);
+            }
         }
     }
 }
