@@ -82,6 +82,11 @@
             Console.WriteLine("\nExercise 14:\n");
             ConditionalFunctions.CheckLeapYear(2024); // bisestile
             ConditionalFunctions.CheckLeapYear(2023); // non bisestile
+
+            // Esercizio 15: Scrivere un'espressione logica che verifica se una stringa contiene una sottostringa specifica.
+            Console.WriteLine("\nExercise 15:\n");
+            ConditionalFunctions.CheckSubstring("Hello world", "world");
+            ConditionalFunctions.CheckSubstring("Hello world", "test");
         }
     }
 }

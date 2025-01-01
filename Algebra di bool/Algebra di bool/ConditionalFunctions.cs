@@ -231,5 +231,18 @@
                 Console.WriteLine($"{year} is not a leap year.");
             }
         }
+
+        // Esercizio 15: Scrivere un'espressione logica che verifica se una stringa contiene una sottostringa specifica.
+        public static void CheckSubstring(string mainString, string subString)
+        {
+            if (mainString.Contains(subString))
+            {
+                Console.WriteLine($"The string contains '{subString}'.");
+            }
+            else
+            {
+                Console.WriteLine($"The string does not contain '{subString}'.");
+            }
+        }
     }
 }
