@@ -193,5 +193,17 @@
                 Console.WriteLine("The number is not negative.");
             }
         }
+        // Esercizio 12: Creare un programma che utilizza un if-else per determinare il maggiore tra due numeri.
+        public static void FindGreaterNumber(int num1, int num2)
+        {
+            if (num1 > num2)
+            {
+                Console.WriteLine($"{num1} is greater than {num2}.");
+            }
+            else
+            {
+                Console.WriteLine($"{num2} is greater than {num1}.");
+            }
+        }
     }
 }

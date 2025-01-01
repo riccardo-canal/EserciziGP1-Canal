@@ -66,6 +66,11 @@
             // Esercizio 11: Scrivere una serie di if-else per verificare più condizioni.
             Console.WriteLine("\nExercise 11:\n");
             ConditionalFunctions.CheckMultipleConditions(-5);
+
+            // Esercizio 12: Creare un programma che utilizza un if-else per determinare il maggiore tra due numeri.
+            Console.WriteLine("\nExercise 12:\n");
+            ConditionalFunctions.FindGreaterNumber(15, 10);
+            ConditionalFunctions.FindGreaterNumber(5, 20);
         }
     }
 }
