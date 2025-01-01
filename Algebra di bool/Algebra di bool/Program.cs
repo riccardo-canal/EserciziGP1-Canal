@@ -98,6 +98,12 @@
             ConditionalFunctions.CheckNumber(5); // positivo
             ConditionalFunctions.CheckNumber(-3); // negativo
             ConditionalFunctions.CheckNumber(0); // zero
+
+            // Esercizio 18: Creare un programma che utilizza un switch per determinare il giorno della settimana.
+            Console.WriteLine("\nExercise 18:\n");
+            ConditionalFunctions.GetDayOfWeek(1); // Lunedì
+            ConditionalFunctions.GetDayOfWeek(5); // Venerdì
+            ConditionalFunctions.GetDayOfWeek(8); // Giorno non valido
         }
     }
 }
