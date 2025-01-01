@@ -40,6 +40,12 @@
             Console.WriteLine("\nExercise 6:\n");
             ConditionalFunctions.UseBoolean(true);
             ConditionalFunctions.UseBoolean(false);
+
+            // Esercizio 7: Creare un programma che utilizza if-else nidificati.
+            Console.WriteLine("\nExercise 7:\n");
+            ConditionalFunctions.NestedIfExample(5); // positivo e < 10
+            ConditionalFunctions.NestedIfExample(15); // positivo e >= 10
+            ConditionalFunctions.NestedIfExample(-3); // negativo o zero
         }
     }
 }

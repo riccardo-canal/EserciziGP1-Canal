@@ -96,5 +96,24 @@
             }
         }
 
+        // Esercizio 7: Creare un programma che utilizza if-else nidificati.
+        public static void NestedIfExample(int number)
+        {
+            if (number > 0)
+            {
+                if (number < 10)
+                {
+                    Console.WriteLine("Number is positive and less than 10.");
+                }
+                else
+                {
+                    Console.WriteLine("Number is positive and greater than or equal to 10.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Number is zero or negative.");
+            }
+        }
     }
 }
