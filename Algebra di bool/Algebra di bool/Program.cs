@@ -104,6 +104,11 @@
             ConditionalFunctions.GetDayOfWeek(1); // Lunedì
             ConditionalFunctions.GetDayOfWeek(5); // Venerdì
             ConditionalFunctions.GetDayOfWeek(8); // Giorno non valido
+
+            // Esercizio 19: Utilizzare un'istruzione if per verificare se un numero è divisibile per 3 e 5.
+            Console.WriteLine("\nExercise 19:\n");
+            ConditionalFunctions.CheckDivisibility(15); // Divisibile per entrambi
+            ConditionalFunctions.CheckDivisibility(9); // Non divisibile per entrambi
         }
     }
 }

@@ -307,5 +307,18 @@
                     break;
             }
         }
+
+        // Esercizio 19: Utilizzare un'istruzione if per verificare se un numero è divisibile per 3 e 5.
+        public static void CheckDivisibility(int number)
+        {
+            if (number % 3 == 0 && number % 5 == 0)
+            {
+                Console.WriteLine($"{number} is divisible by both 3 and 5.");
+            }
+            else
+            {
+                Console.WriteLine($"{number} is not divisible by both 3 and 5.");
+            }
+        }
     }
 }
