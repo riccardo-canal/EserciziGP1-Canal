@@ -333,5 +333,31 @@
                 Console.WriteLine("The value is false.");
             }
         }
+
+        // Esercizio 21: Utilizzare un switch per valutare una variabile stringa.
+        public static void SwitchString(string day)
+        {
+            switch (day.ToLower())
+            {
+                case "monday":
+                    Console.WriteLine("Start of the week.");
+                    break;
+                case "tuesday":
+                case "wednesday":
+                case "thursday":
+                    Console.WriteLine("Midweek.");
+                    break;
+                case "friday":
+                    Console.WriteLine("End of the workweek.");
+                    break;
+                case "saturday":
+                case "sunday":
+                    Console.WriteLine("It's the weekend!");
+                    break;
+                default:
+                    Console.WriteLine("Invalid day entered.");
+                    break;
+            }
+        }
     }
 }

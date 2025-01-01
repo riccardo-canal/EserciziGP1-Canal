@@ -114,6 +114,12 @@
             Console.WriteLine("\nExercise 20:\n");
             ConditionalFunctions.CheckBoolean(true);
             ConditionalFunctions.CheckBoolean(false);
+
+            // Esercizio 21: Utilizzare un switch per valutare una variabile stringa.
+            Console.WriteLine("\nExercise 21:\n");
+            ConditionalFunctions.SwitchString("monday");
+            ConditionalFunctions.SwitchString("friday");
+            ConditionalFunctions.SwitchString("sunday");
         }
     }
 }
