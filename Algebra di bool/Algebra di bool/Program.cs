@@ -71,6 +71,12 @@
             Console.WriteLine("\nExercise 12:\n");
             ConditionalFunctions.FindGreaterNumber(15, 10);
             ConditionalFunctions.FindGreaterNumber(5, 20);
+
+            // Esercizio 13: Utilizzare un'istruzione if per verificare se una stringa è vuota o nulla.
+            Console.WriteLine("\nExercise 13:\n");
+            ConditionalFunctions.CheckString(""); // vuota
+            ConditionalFunctions.CheckString(null); // null
+            ConditionalFunctions.CheckString("Hello"); // non vuota
         }
     }
 }

@@ -205,5 +205,18 @@
                 Console.WriteLine($"{num2} is greater than {num1}.");
             }
         }
+
+        // Esercizio 13: Utilizzare un'istruzione if per verificare se una stringa è vuota o nulla.
+        public static void CheckString(string str)
+        {
+            if (string.IsNullOrEmpty(str))
+            {
+                Console.WriteLine("String is empty or null.");
+            }
+            else
+            {
+                Console.WriteLine("String has value.");
+            }
+        }
     }
 }
