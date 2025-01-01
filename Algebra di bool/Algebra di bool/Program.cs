@@ -120,6 +120,11 @@
             ConditionalFunctions.SwitchString("monday");
             ConditionalFunctions.SwitchString("friday");
             ConditionalFunctions.SwitchString("sunday");
+
+            // Esercizio 22: Creare un programma che utilizza un if per verificare se un array è vuoto.
+            Console.WriteLine("\nExercise 22:\n");
+            ConditionalFunctions.CheckIfArrayIsEmpty([1, 2, 3]);
+            ConditionalFunctions.CheckIfArrayIsEmpty([]);
         }
     }
 }

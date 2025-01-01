@@ -359,5 +359,18 @@
                     break;
             }
         }
+
+        // Esercizio 22: Creare un programma che utilizza un if per verificare se un array è vuoto.
+        public static void CheckIfArrayIsEmpty(int[] array)
+        {
+            if (array.Length == 0)
+            {
+                Console.WriteLine("The array is empty.");
+            }
+            else
+            {
+                Console.WriteLine("The array is not empty.");
+            }
+        }
     }
 }
