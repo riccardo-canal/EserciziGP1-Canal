@@ -70,5 +70,17 @@
             }
         }
 
+        // Esercizio 5: Scrivere un if-else che utilizza l'operatore ! per invertire una condizione.
+        public static void InvertCondition(bool condition)
+        {
+            if (!condition)
+            {
+                Console.WriteLine("Condition is false.");
+            }
+            else
+            {
+                Console.WriteLine("Condition is true.");
+            }
+        }
     }
 }

@@ -30,6 +30,11 @@
             ConditionalFunctions.CheckInRange(50, 1, 100); // Dentro l'intervallo
             ConditionalFunctions.CheckInRange(150, 1, 100); // Fuori dall'intervallo
             ConditionalFunctions.CheckInRange(150, 100, 1); // Scenario di errore
+
+            // Esercizio 5: Scrivere un if-else che utilizza l'operatore ! per invertire una condizione.
+            Console.WriteLine("\nExercise 5:\n");
+            ConditionalFunctions.InvertCondition(true);
+            ConditionalFunctions.InvertCondition(false);
         }
     }
 }
