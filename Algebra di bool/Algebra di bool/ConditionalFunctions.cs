@@ -257,5 +257,22 @@
                 Console.WriteLine($"Array does not contain {element}.");
             }
         }
+
+        // Esercizio 17: Creare una funzione che utilizza if-else per determinare se un numero è positivo, negativo o zero.
+        public static void CheckNumber(int number)
+        {
+            if (number > 0)
+            {
+                Console.WriteLine("The number is positive.");
+            }
+            else if (number < 0)
+            {
+                Console.WriteLine("The number is negative.");
+            }
+            else
+            {
+                Console.WriteLine("The number is zero.");
+            }
+        }
     }
 }

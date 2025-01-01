@@ -92,6 +92,12 @@
             Console.WriteLine("\nExercise 16:\n");
             ConditionalFunctions.CheckArrayContains(new int[] { 1, 2, 3, 4, 5 }, 3); // contiene 3
             ConditionalFunctions.CheckArrayContains(new int[] { 1, 2, 3, 4, 5 }, 6); // non contiene 6
+
+            // Esercizio 17: Creare una funzione che utilizza if-else per determinare se un numero è positivo, negativo o zero.
+            Console.WriteLine("\nExercise 17:\n");
+            ConditionalFunctions.CheckNumber(5); // positivo
+            ConditionalFunctions.CheckNumber(-3); // negativo
+            ConditionalFunctions.CheckNumber(0); // zero
         }
     }
 }
