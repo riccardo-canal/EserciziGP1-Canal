@@ -3,7 +3,7 @@
     internal class ConditionalFunctions
     {
         // Esercizio 1: Utilizzare un if-else per verificare se un numero è pari o dispari.
-        public static void CheckEvenOdd(int number)
+        internal static void CheckEvenOdd(int number)
         {
             if (number % 2 == 0)
             {
@@ -16,7 +16,7 @@
         }
 
         // Esercizio 2: Scrivere un programma che utilizza una serie di if-else per categorizzare un'età.
-        public static void CategorizeAge(int age)
+        internal static void CategorizeAge(int age)
         {
             if (age >= 0 && age <= 12)
             {
