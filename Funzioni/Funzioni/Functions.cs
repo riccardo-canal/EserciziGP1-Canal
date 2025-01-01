@@ -67,5 +67,12 @@
         {
             return new List<int> { 1, 2, 3, 4, 5 };
         }
+
+        // Esercizio 10: Scrivere una funzione che accetta e restituisce oggetti di una classe custom.
+        internal static Person UpdatePerson(Person person)
+        {
+            person.Age += 1; // Modifica di esempio
+            return person;
+        }
     }
 }

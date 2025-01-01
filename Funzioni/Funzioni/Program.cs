@@ -58,6 +58,13 @@
             {
                 Console.WriteLine(num);
             }
+
+            // Esercizio 10: Scrivere una funzione che accetta e restituisce oggetti di una classe custom.
+            Console.WriteLine("\nExercise 10:\n");
+            Person person = new Person("John", 30);
+            Console.WriteLine($"Person details: {person}");
+            Person updatedPerson = Functions.UpdatePerson(person);
+            Console.WriteLine($"Updated person: {updatedPerson}");
         }
     }
 }
