@@ -57,6 +57,11 @@
             ConditionalFunctions.CompareNumbers(10, 5);
             ConditionalFunctions.CompareNumbers(5, 10);
             ConditionalFunctions.CompareNumbers(10, 10);
+
+            // Esercizio 10: Utilizzare un operatore ternario per assegnare un valore a una variabile.
+            Console.WriteLine("\nExercise 10:\n");
+            ConditionalFunctions.TernaryOperator(20);
+            ConditionalFunctions.TernaryOperator(15);
         }
     }
 }

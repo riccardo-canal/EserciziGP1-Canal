@@ -146,5 +146,12 @@
                 Console.WriteLine($"{a} is equal to {b}.");
             }
         }
+
+        // Esercizio 10: Utilizzare un operatore ternario per assegnare un valore a una variabile.
+        public static void TernaryOperator(int age)
+        {
+            string result = (age >= 18) ? "Adult" : "Minor";
+            Console.WriteLine(result);
+        }
     }
 }
