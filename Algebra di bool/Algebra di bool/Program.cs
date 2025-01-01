@@ -87,6 +87,11 @@
             Console.WriteLine("\nExercise 15:\n");
             ConditionalFunctions.CheckSubstring("Hello world", "world");
             ConditionalFunctions.CheckSubstring("Hello world", "test");
+
+            // Esercizio 16: Utilizzare un if-else per verificare se un array contiene un elemento specifico.
+            Console.WriteLine("\nExercise 16:\n");
+            ConditionalFunctions.CheckArrayContains(new int[] { 1, 2, 3, 4, 5 }, 3); // contiene 3
+            ConditionalFunctions.CheckArrayContains(new int[] { 1, 2, 3, 4, 5 }, 6); // non contiene 6
         }
     }
 }

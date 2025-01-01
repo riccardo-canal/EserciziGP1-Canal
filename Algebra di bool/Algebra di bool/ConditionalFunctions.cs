@@ -244,5 +244,18 @@
                 Console.WriteLine($"The string does not contain '{subString}'.");
             }
         }
+
+        // Esercizio 16: Utilizzare un if-else per verificare se un array contiene un elemento specifico.
+        public static void CheckArrayContains(int[] array, int element)
+        {
+            if (array.Contains(element))
+            {
+                Console.WriteLine($"Array contains {element}.");
+            }
+            else
+            {
+                Console.WriteLine($"Array does not contain {element}.");
+            }
+        }
     }
 }
