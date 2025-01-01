@@ -14,5 +14,26 @@
                 Console.WriteLine($"{number} is odd.");
             }
         }
+
+        // Esercizio 2: Scrivere un programma che utilizza una serie di if-else per categorizzare un'età.
+        public static void CategorizeAge(int age)
+        {
+            if (age >= 0 && age <= 12)
+            {
+                Console.WriteLine($"Age {age}: Child");
+            }
+            else if (age >= 13 && age <= 19)
+            {
+                Console.WriteLine($"Age {age}: Teenager");
+            }
+            else if (age >= 20 && age <= 64)
+            {
+                Console.WriteLine($"Age {age}: Adult");
+            }
+            else
+            {
+                Console.WriteLine($"Age {age}: Senior");
+            }
+        }
     }
 }
