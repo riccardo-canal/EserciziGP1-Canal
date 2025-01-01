@@ -218,5 +218,18 @@
                 Console.WriteLine("String has value.");
             }
         }
+
+        // Esercizio 14: Creare un programma che utilizza if-else per verificare se un anno è bisestile.
+        public static void CheckLeapYear(int year)
+        {
+            if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+            {
+                Console.WriteLine($"{year} is a leap year.");
+            }
+            else
+            {
+                Console.WriteLine($"{year} is not a leap year.");
+            }
+        }
     }
 }

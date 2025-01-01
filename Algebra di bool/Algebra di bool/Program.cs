@@ -77,6 +77,11 @@
             ConditionalFunctions.CheckString(""); // vuota
             ConditionalFunctions.CheckString(null); // null
             ConditionalFunctions.CheckString("Hello"); // non vuota
+
+            // Esercizio 14: Creare un programma che utilizza if-else per verificare se un anno è bisestile.
+            Console.WriteLine("\nExercise 14:\n");
+            ConditionalFunctions.CheckLeapYear(2024); // bisestile
+            ConditionalFunctions.CheckLeapYear(2023); // non bisestile
         }
     }
 }
