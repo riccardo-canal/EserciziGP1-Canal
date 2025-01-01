@@ -35,5 +35,18 @@
                 Console.WriteLine($"Age {age}: Senior");
             }
         }
+
+        // Esercizio 3: Creare un'espressione logica che combina più condizioni con &&.
+        public static void CheckConditions(int x, int y)
+        {
+            if (x > 5 && y < 10)
+            {
+                Console.WriteLine("Both conditions are true.");
+            }
+            else
+            {
+                Console.WriteLine("One or both conditions are false.");
+            }
+        }
     }
 }

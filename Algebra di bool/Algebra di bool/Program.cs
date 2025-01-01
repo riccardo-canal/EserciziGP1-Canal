@@ -19,6 +19,11 @@
             ConditionalFunctions.CategorizeAge(16);
             ConditionalFunctions.CategorizeAge(30);
             ConditionalFunctions.CategorizeAge(70);
+
+            // Esercizio 3: Creare un'espressione logica che combina più condizioni con &&.
+            Console.WriteLine("\nExercise 3:\n");
+            ConditionalFunctions.CheckConditions(6, 8);  // x > 5 && y < 10
+            ConditionalFunctions.CheckConditions(3, 8);  // x > 5 && y < 10 (falsa)
         }
     }
 }
