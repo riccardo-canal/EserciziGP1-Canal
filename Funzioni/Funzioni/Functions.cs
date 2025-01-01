@@ -89,5 +89,14 @@
         {
             return number > 10 ? "Greater than 10" : "Less than or equal to 10";
         }
+
+        // Funzioni di utilità generiche
+        internal static void PrintNumberList(List<int> numbers)
+        {
+            foreach (var num in numbers)
+            {
+                Console.WriteLine(num);
+            }
+        }
     }
 }

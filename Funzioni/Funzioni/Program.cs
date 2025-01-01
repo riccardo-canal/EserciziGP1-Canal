@@ -54,10 +54,7 @@
             Console.WriteLine("\nExercise 9:\n");
             List<int> numbersList = Functions.GetNumberList();
             Console.WriteLine("List of numbers:");
-            foreach (var num in numbersList)
-            {
-                Console.WriteLine(num);
-            }
+            Functions.PrintNumberList(numbersList);
 
             // Esercizio 10: Scrivere una funzione che accetta e restituisce oggetti di una classe custom.
             Console.WriteLine("\nExercise 10:\n");
@@ -71,10 +68,7 @@
             List<int> numbersToModify = new List<int> { 1, 2, 3, 4, 5 };
             Functions.ModifyList(numbersToModify);
             Console.WriteLine("Modified list:");
-            foreach (var num in numbersToModify)
-            {
-                Console.WriteLine(num);
-            }
+            Functions.PrintNumberList(numbersToModify);
 
             // Esercizio 12: Creare una funzione che utilizza un'espressione condizionale per determinare il valore restituito. (if else)
             Console.WriteLine("\nExercise 12:\n");
