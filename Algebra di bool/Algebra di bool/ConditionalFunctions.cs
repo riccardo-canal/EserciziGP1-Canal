@@ -153,5 +153,45 @@
             string result = (age >= 18) ? "Adult" : "Minor";
             Console.WriteLine(result);
         }
+
+        // Esercizio 11: Scrivere una serie di if-else per verificare più condizioni.
+        public static void CheckMultipleConditions(int number)
+        {
+            if (number > 100)
+            {
+                Console.WriteLine("The number is greater than 100.");
+            }
+            else
+            {
+                Console.WriteLine("The number is not greater than 100.");
+            }
+
+            if (number >= 50 && number <= 100)
+            {
+                Console.WriteLine("The number is between 50 and 100.");
+            }
+            else
+            {
+                Console.WriteLine("The number is not between 50 and 100.");
+            }
+
+            if (number < 50 && number >= 0)
+            {
+                Console.WriteLine("The number is between 0 and 50.");
+            }
+            else
+            {
+                Console.WriteLine("The number is not between 0 and 50.");
+            }
+
+            if (number < 0)
+            {
+                Console.WriteLine("The number is negative.");
+            }
+            else
+            {
+                Console.WriteLine("The number is not negative.");
+            }
+        }
     }
 }

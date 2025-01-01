@@ -62,6 +62,10 @@
             Console.WriteLine("\nExercise 10:\n");
             ConditionalFunctions.TernaryOperator(20);
             ConditionalFunctions.TernaryOperator(15);
+
+            // Esercizio 11: Scrivere una serie di if-else per verificare più condizioni.
+            Console.WriteLine("\nExercise 11:\n");
+            ConditionalFunctions.CheckMultipleConditions(-5);
         }
     }
 }
