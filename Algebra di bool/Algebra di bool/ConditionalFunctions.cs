@@ -391,5 +391,19 @@
             }
             Console.WriteLine($"{number} is a prime number.");
         }
+
+        // Esercizio 24: Scrivere un programma che utilizza un'istruzione if-else per verificare se una parola è palindroma.
+        public static void CheckPalindrome(string word)
+        {
+            string reversedWord = new(word.Reverse().ToArray());
+            if (word.Equals(reversedWord, StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine($"{word} is a palindrome.");
+            }
+            else
+            {
+                Console.WriteLine($"{word} is not a palindrome.");
+            }
+        }
     }
 }

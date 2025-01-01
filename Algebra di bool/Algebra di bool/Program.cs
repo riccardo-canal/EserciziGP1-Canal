@@ -131,6 +131,11 @@
             ConditionalFunctions.CheckPrimeNumber(7); // Numero primo
             ConditionalFunctions.CheckPrimeNumber(4); // Non primo
             ConditionalFunctions.CheckPrimeNumber(1); // Non primo
+
+            // Esercizio 24: Scrivere un programma che utilizza un'istruzione if-else per verificare se una parola è palindroma.
+            Console.WriteLine("\nExercise 24:\n");
+            ConditionalFunctions.CheckPalindrome("racecar"); // Palindromo
+            ConditionalFunctions.CheckPalindrome("hello"); // Non palindromo
         }
     }
 }
