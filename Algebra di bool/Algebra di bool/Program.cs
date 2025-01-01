@@ -10,7 +10,7 @@
             Console.WriteLine("======================");
 
             // Esercizio 1: Utilizzare un if-else per verificare se un numero è pari o dispari.
-            Console.WriteLine("\nExercise 1\n");
+            Console.WriteLine("\nExercise 1:\n");
             ConditionalFunctions.CheckEvenOdd(10);
 
             // Esercizio 2: Scrivere un programma che utilizza una serie di if-else per categorizzare un'età.
@@ -90,8 +90,8 @@
 
             // Esercizio 16: Utilizzare un if-else per verificare se un array contiene un elemento specifico.
             Console.WriteLine("\nExercise 16:\n");
-            ConditionalFunctions.CheckArrayContains(new int[] { 1, 2, 3, 4, 5 }, 3); // contiene 3
-            ConditionalFunctions.CheckArrayContains(new int[] { 1, 2, 3, 4, 5 }, 6); // non contiene 6
+            ConditionalFunctions.CheckArrayContains([1, 2, 3, 4, 5], 3); // contiene 3
+            ConditionalFunctions.CheckArrayContains([1, 2, 3, 4, 5], 6); // non contiene 6
 
             // Esercizio 17: Creare una funzione che utilizza if-else per determinare se un numero è positivo, negativo o zero.
             Console.WriteLine("\nExercise 17:\n");
