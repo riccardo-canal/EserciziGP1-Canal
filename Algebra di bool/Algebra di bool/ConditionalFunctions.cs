@@ -372,5 +372,24 @@
                 Console.WriteLine("The array is not empty.");
             }
         }
+
+        // Esercizio 23: Utilizzare un if per verificare se un valore è un numero primo.
+        public static void CheckPrimeNumber(int number)
+        {
+            if (number <= 1)
+            {
+                Console.WriteLine($"{number} is not a prime number.");
+                return;
+            }
+            for (int i = 2; i <= Math.Sqrt(number); i++)
+            {
+                if (number % i == 0)
+                {
+                    Console.WriteLine($"{number} is not a prime number.");
+                    return;
+                }
+            }
+            Console.WriteLine($"{number} is a prime number.");
+        }
     }
 }

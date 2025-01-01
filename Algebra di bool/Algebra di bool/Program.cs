@@ -125,6 +125,12 @@
             Console.WriteLine("\nExercise 22:\n");
             ConditionalFunctions.CheckIfArrayIsEmpty([1, 2, 3]);
             ConditionalFunctions.CheckIfArrayIsEmpty([]);
+
+            // Esercizio 23: Utilizzare un if per verificare se un valore è un numero primo.
+            Console.WriteLine("\nExercise 23:\n");
+            ConditionalFunctions.CheckPrimeNumber(7); // Numero primo
+            ConditionalFunctions.CheckPrimeNumber(4); // Non primo
+            ConditionalFunctions.CheckPrimeNumber(1); // Non primo
         }
     }
 }
