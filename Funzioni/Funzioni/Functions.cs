@@ -61,5 +61,11 @@
                 Console.WriteLine("Invalid number format.");
             }
         }
+
+        // Esercizio 9: Dichiarare una funzione che restituisce una lista di numeri.
+        internal static List<int> GetNumberList()
+        {
+            return new List<int> { 1, 2, 3, 4, 5 };
+        }
     }
 }

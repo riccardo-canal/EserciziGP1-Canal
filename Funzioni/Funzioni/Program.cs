@@ -49,6 +49,15 @@
             // Esercizio 8: Creare una funzione che utilizza un'eccezione per gestire input non validi. (try - catch)
             Console.WriteLine("\nExercise 8:\n");
             Functions.TryParseNumber("1234"); // L'eccezione viene lanciata con un input non valido, ad esempio: "abcd"
+
+            // Esercizio 9: Dichiarare una funzione che restituisce una lista di numeri.
+            Console.WriteLine("\nExercise 9:\n");
+            List<int> numbersList = Functions.GetNumberList();
+            Console.WriteLine("List of numbers:");
+            foreach (var num in numbersList)
+            {
+                Console.WriteLine(num);
+            }
         }
     }
 }
