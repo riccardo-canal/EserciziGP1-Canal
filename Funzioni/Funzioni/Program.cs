@@ -75,6 +75,12 @@
             {
                 Console.WriteLine(num);
             }
+
+            // Esercizio 12: Creare una funzione che utilizza un'espressione condizionale per determinare il valore restituito. (if else)
+            Console.WriteLine("\nExercise 12:\n");
+            int inputValue = 10;
+            string result = Functions.CheckValue(inputValue);
+            Console.WriteLine($"Checked value {inputValue}: {result}");
         }
     }
 }

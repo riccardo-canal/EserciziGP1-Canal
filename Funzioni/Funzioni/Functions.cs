@@ -83,5 +83,11 @@
                 numbers[i] += 10; // Aggiunge 10 a ogni elemento della lista
             }
         }
+
+        // Esercizio 12: Creare una funzione che utilizza un'espressione condizionale per determinare il valore restituito. (if else)
+        internal static string CheckValue(int number)
+        {
+            return number > 10 ? "Greater than 10" : "Less than or equal to 10";
+        }
     }
 }
