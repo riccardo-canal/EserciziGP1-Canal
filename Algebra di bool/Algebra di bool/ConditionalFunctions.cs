@@ -115,5 +115,19 @@
                 Console.WriteLine("Number is zero or negative.");
             }
         }
+
+        // Esercizio 8: Utilizzare un'espressione switch per valutare un valore booleano.
+        public static void SwitchBoolean(bool isActive)
+        {
+            switch (isActive)
+            {
+                case true:
+                    Console.WriteLine("The system is active.");
+                    break;
+                case false:
+                    Console.WriteLine("The system is inactive.");
+                    break;
+            }
+        }
     }
 }

@@ -46,6 +46,11 @@
             ConditionalFunctions.NestedIfExample(5); // positivo e < 10
             ConditionalFunctions.NestedIfExample(15); // positivo e >= 10
             ConditionalFunctions.NestedIfExample(-3); // negativo o zero
+
+            // Esercizio 8: Utilizzare un'espressione switch per valutare un valore booleano.
+            Console.WriteLine("\nExercise 8:\n");
+            ConditionalFunctions.SwitchBoolean(true);
+            ConditionalFunctions.SwitchBoolean(false);
         }
     }
 }
