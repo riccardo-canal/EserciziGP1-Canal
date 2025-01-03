@@ -11,5 +11,10 @@
             Name = name;
             Age = age;
         }
+
+        public override string ToString()
+        {
+            return $"Person - Name: {Name}, Age: {Age}";
+        }
     }
 }
